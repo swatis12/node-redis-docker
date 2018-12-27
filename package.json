@@ -1,0 +1,18 @@
+{
+    "name": "docker-compose",
+    "version": "1.0.0",
+    "description": "Simple Example",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "watch": "nodemon -L app.js"
+    },
+    "author": "Swati Sinha",
+    "dependencies": {
+        "connect-redis": "3.3.0",
+        "express": "^4.16.3",
+        "express-session": "^1.15.6",
+        "nodemon": "^1.18.4",
+        "redis-server": "^1.2.2"
+    }
+}
